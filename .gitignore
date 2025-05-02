@@ -1,1 +1,4 @@
 /.lake
+# Running `autograder.sh` copies `autograder/Assignment.lean` to `Assignment.lean`
+Assignment.lean
+results.json
