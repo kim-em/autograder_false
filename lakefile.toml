@@ -1,0 +1,15 @@
+name = "autograder_false"
+version = "0.1.0"
+defaultTargets = ["autograder"]
+
+[[lean_lib]]
+name = "autograder"
+
+[[require]]
+name = "autograder"
+git = "https://github.com/robertylewis/lean4-autograder-main"
+# Autograder is compatible with
+# the v4.10.0 toolchain at 7b389cac593fa1881f07916ff9818b208a958eef
+# the v4.15.0 toolchain at 45e8147b7f5ca14ca5a2b1b4080dfaf1c8549c19
+rev = "45e8147b7f5ca14ca5a2b1b4080dfaf1c8549c19"
+
