@@ -1,2 +1,2 @@
-import autograder.solutions
-import autograder.submission
+import autograder.Assignment
+import autograder.Solution
