@@ -1,1 +1,1 @@
-lake exe autograder --local autograder/submission.lean autograder/solutions.lean 
+lake exe autograder

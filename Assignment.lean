@@ -1,6 +1,5 @@
 import AutograderLib
 
-@[autograded 1]
-theorem false : False := by
-  have := Type
+theorem ff : False := by
+  have := Type _
   apply?
